@@ -31,9 +31,7 @@ int nv_face_detect(nv_face_position_t *face_pos,
 				   float min_window_size
 				   );
 
-#if NV_ENABLE_CUDA
-#include "nv_face_detect_gpu.h"
-#endif
+
 
 #ifdef __cplusplus
 }
