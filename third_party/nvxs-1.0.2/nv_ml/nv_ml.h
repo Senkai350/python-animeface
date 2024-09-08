@@ -3,7 +3,6 @@
 
 #include "nv_core.h"
 #if !NV_XS
-#include "nv_ml_som.h"
 #include "nv_ml_irls.h"
 #include "nv_ml_xmeans.h"
 #include "nv_ml_nb.h"
